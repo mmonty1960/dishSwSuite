@@ -8,6 +8,12 @@ General information
 - Library to manage images: OpenCV
 - Library to control GigE cameras: Aravis, Vimba
 
+Installation (Linux)
+-download the zipped file from https://github.com/mmonty1960/dishSwSuite
+-unzip to a position at your choice on the PC
+-open with QtCreator the .pro file of the sof
+
+
 Warning
 This software is offered as open source under the GNU General Public License v3.0
 with the hope to be useful for someone. I apologize for the lack of accurate documentation, but at the present I have not time and funds for drafting that.
@@ -22,7 +28,7 @@ Images of
 can be shot and saved at one or more increasing exposure time
 
 IWB – ImageWorkBench
-This software processes the images acquired by kFluxMapper for composing the meta-image (double float) mapping the experimental flux.
+This software processes the images acquired by kFluxMapper returning the meta-image (double float) mapping the experimental flux.
 
 kVISdish (master)
 Software for infield experimental evaluation of 3D-shape of solar dishes according to the VIS approach: a suitably wide LCD monitor is placed orthogonally and centrally to the paraboloid axis at the point (optically) conjugated with the observation point, always placed along the paraboloid axis. The LCD monitor is connected to the “slave” PC, while the GigE camera, placed at the observation point, is connected to the neighbor “master” PC. KVISdish and kVISdishSlave have to be installed on the “master” and “slave” PC, respectively. “Master” and “slave” PCs are connected by Ethernet
