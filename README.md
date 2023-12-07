@@ -9,13 +9,13 @@ General information
 - Library to control GigE cameras: Aravis, Vimba
 
 Installation (Linux)
--download the zipped file from https://github.com/mmonty1960/dishSwSuite
--unzip to a position at your choice on the PC
--the folders with the source file are in ~Workspace/qtSource, while in ~Workspace/Documents you find a paper and a presentation
--launch QtCreator, open the .pro file of the software you want compile, and complete the project as required
--edit the .cpp files and modify the paths as you prefer
--check if the required libraries are installed, otherwise install them
--compile the project and enjoy
+- download the zipped file from https://github.com/mmonty1960/dishSwSuite
+- unzip to a position at your choice on the PC
+- the folders with the source file are in ~Workspace/qtSource, while in ~Workspace/Documents you find a paper and a presentation
+- launch QtCreator, open the .pro file of the software you want compile, and complete the project as required
+- edit the .cpp files and modify the paths as you prefer
+- check if the required libraries are installed, otherwise install them
+- compile the project and enjoy
 
 
 Warning
