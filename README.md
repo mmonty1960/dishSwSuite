@@ -2,11 +2,11 @@
 Suite of software for the optical-geometric characterization of solar dishes
 
 General information
-	- Language: C++
-	- Graphical User Interface: Qt
-	- Library to make plot: Qwt
-	- Library to manage images: OpenCV
-	- Library to control GigE cameras: Aravis, Vimba
+- Language: C++
+- Graphical User Interface: Qt
+- Library to make plot: Qwt
+- Library to manage images: OpenCV
+- Library to control GigE cameras: Aravis, Vimba
 
 Warning
 This software is offered as open source under the GNU General Public License v3.0
