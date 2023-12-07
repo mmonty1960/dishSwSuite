@@ -11,13 +11,15 @@ General information
 Installation (Linux)
 -download the zipped file from https://github.com/mmonty1960/dishSwSuite
 -unzip to a position at your choice on the PC
--open with QtCreator the .pro file of the sof
+-the folders with the source file are in ~Workspace/qtSource, while in ~Workspace/Documents you find a paper and a presentation
+-launch QtCreator, open the .pro file of the software you want compile, and complete the project as required
+-edit the .cpp files and modify the paths as you prefer
+-check if the required libraries are installed, otherwise install them
+-compile the project and enjoy
 
 
 Warning
-This software is offered as open source under the GNU General Public License v3.0
-with the hope to be useful for someone. I apologize for the lack of accurate documentation, but at the present I have not time and funds for drafting that.
-On the other hand, I am available to assist people interested on these software.
+This software is offered as open source under the GNU General Public License v3.0 with the hope to be useful for someone. I apologize for the lack of accurate documentation, but at the present I have not time and funds for drafting that. On the other hand, I am available to assist people interested on these software.
 
 kFluxMapper
 Software to control a GigE camera (by means of the Aravis library) for acquiring the images needed to the experimental evaluation of the profile of the solar radiation concentrated by the solar dish in its focal plane where a diffusive plane target is set.
