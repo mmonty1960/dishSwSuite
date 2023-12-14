@@ -331,9 +331,11 @@ void ImageWorkBench::build(){
     uint16_t value;
     int height=ui->lineEdit_height -> text().toInt();
     int width= ui->lineEdit_width  -> text().toInt();
-    double BG=ui->dSB_AddBack->value();
-    double dval;
+    double BG=ui->dSB_bg ->value();
     double Again= ui->dSB_addGain ->value();
+    BG=BG/Again;
+    ui->dSB_AddBack->setValue(BG);
+    double dval;
     for(int i=0; i<height; i++){
         for(int j=0; j< width; j++){
             value=img.at<uint16_t>(i,j);
